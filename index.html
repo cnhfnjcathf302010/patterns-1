@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = "UTF-8">
+		<title>Patterns</title>
+		<link rel = 'stylesheet' href = 'style.css' />
+		<script src = 'init-namespace.js'></script>
+		<script src = 'helpers/Helpers.js'></script>
+		<script src = 'algoritms/Algoritm1.js'></script>
+		<script src = 'algoritms/Algoritm2.js'></script>
+		<script src = 'algoritms/Algoritm3.js'></script>
+		<script src = 'patterns/Strategy.js'></script>
+		<script src = 'patterns/Singletone.js'></script>	
+		<script src = 'classes/Soldier.js'></script>
+		<script src = 'classes/Mage.js'></script>
+		<script src = 'classes/Archer.js'></script>
+		<script src = 'patterns/ClassesFactory.js'></script>
+		<script src = 'races/Basic.js'></script>
+		<script src = 'races/Orcs.js'></script>
+		<script src = 'races/Elfs.js'></script>
+		<script src = 'races/People.js'></script>
+		<script src = 'patterns/RacesFactory.js'></script>
+		<script src = 'main.js'></script>
+	</head>
+	<body>
+		<div id = 'loginForm'>
+			Name:
+			<div>
+				<input id = 'username' />
+			</div>
+			Password:
+			<div>
+				<input type = 'password' id = 'password' />
+			</div>
+			
+			<div>
+				<select id = 'selectedAlgoritm'>
+					<option selected value = 'Algoritm1'>First</option>
+					<option value = 'Algoritm2'>Second</option>
+					<option value = 'Algoritm3'>Third</option>
+				</select>
+				
+				<button id = 'createUser'>Create user</button>
+			</div>
+		</div>
+		
+		<div id = 'opts' class = 'hidden'>
+			<div>
+				<label for = 'input-races'>
+					Enter the race: 
+				</label>
+				
+				<ul>
+					<li>Human</li>
+					<li>Orc</li>
+					<li>Elf</li>
+				</ul>
+				
+				<input id = 'raceInput' title = 'Orc / Human / Elf' />
+				
+				<button id = 'create-army'>Create Race</button>
+			</div>
+			
+			<input id = 'countOf' />
+			
+			<button disabled id = 'countsOfArmy'>Count of Race</button>
+			
+			<ul id = 'output'></ul>
+		
+			<ul id = 'quantity'></ul>
+		
+		</div>
+	</body>
+</html>
