@@ -1,4 +1,4 @@
-window.tasks.patterns.races.Orc = (function () {
+window.tasks.designPatterns.races.Orc = (function () {
 
 	function Orc () {
 

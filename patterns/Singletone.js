@@ -1,15 +1,23 @@
-window.tasks.patterns.patterns.User = (function () {
+window.tasks.designPatterns.patterns.User = (function () {
 
 	var instance;
 	
-	function User (name, password) {
-	
+	function User () {
+		
+		var data = {};
+			
 		if (instance) {
 			return instance;
 		}
 		
-		this.name = name;
-		this.password = password;
+		this.set = function (params) {
+			data = params;
+            Object.freeze(data);
+		};
+		
+		this.get = function (field) {
+			return data[field];
+		};
 		
 		this.generateId = function (strategy) {
 			this.id = strategy.generate();

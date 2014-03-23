@@ -1,4 +1,4 @@
-window.tasks.patterns.classes.Archer = (function () {
+window.tasks.designPatterns.classes.Archer = (function () {
 
 	function Archer () {
 		this.weapon = 'bow';

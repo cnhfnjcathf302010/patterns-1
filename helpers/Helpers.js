@@ -1,4 +1,4 @@
-window.tasks.patterns.helpers = (function () {
+window.tasks.designPatterns.helpers = (function () {
 
 	function render (elem, insertedHtml) {
 		elem.innerHTML = insertedHtml;

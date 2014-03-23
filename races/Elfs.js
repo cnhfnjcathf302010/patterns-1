@@ -1,4 +1,4 @@
-window.tasks.patterns.races.Elf = (function () {
+window.tasks.designPatterns.races.Elf = (function () {
 
 	function Elf () {
 	

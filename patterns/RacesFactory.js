@@ -1,4 +1,4 @@
-window.tasks.patterns.patterns.RacesFactory = (function (races, patterns) {
+window.tasks.designPatterns.patterns.RacesFactory = (function (races, patterns) {
 
 	var Races = {
 
@@ -29,4 +29,4 @@ window.tasks.patterns.patterns.RacesFactory = (function (races, patterns) {
 	
 	return Races;
 	
-} (window.tasks.patterns.races, window.tasks.patterns.patterns));
+} (window.tasks.designPatterns.races, window.tasks.designPatterns.patterns));

@@ -1,6 +1,6 @@
 window.tasks = {
 
-	patterns: {
+	designPatterns: {
 	
 		algoritms: {},
 		classes: {},

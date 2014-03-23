@@ -1,4 +1,4 @@
-window.tasks.patterns.patterns.Strategy = (function () {
+window.tasks.designPatterns.patterns.Strategy = (function () {
 	
 	function Strategy (algoritm) {
 	

@@ -1,4 +1,4 @@
-window.tasks.patterns.classes.Soldier = (function () {
+window.tasks.designPatterns.classes.Soldier = (function () {
 
 	function Soldier () {
 		this.weapon = 'sword';

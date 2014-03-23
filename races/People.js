@@ -1,4 +1,4 @@
-window.tasks.patterns.races.Human = (function () {
+window.tasks.designPatterns.races.Human = (function () {
 
 	function Human () {
 	

@@ -1,4 +1,4 @@
-window.tasks.patterns.loader = (function (app, helpers) {
+window.tasks.designPatterns.loader = (function (app, helpers) {
 
 	function onLoad () {
 
@@ -27,15 +27,21 @@ window.tasks.patterns.loader = (function (app, helpers) {
 		
 		function createSomeUser () {
 			var algoritm,
-				output;
+				output; 
 				
 			algoritm = algs[selectedAlgoritm.value];			
 			
-			user = new app.patterns.User(username.value, password.value);
+			user = new app.patterns.User();
+            
+            user.set({
+                'password': password.value,
+                'name': username.value
+            });
+            
 			user.generateId(new app.patterns.Strategy(algoritm));
 			
 			output = [
-				'Hello, ' + user.name,
+				'Hello, ' + user.get('name'),
 				'Your id: ' + user.id
 			];
 			
@@ -67,6 +73,6 @@ window.tasks.patterns.loader = (function (app, helpers) {
 	
 	return onLoad;
 	
-} (window.tasks.patterns, window.tasks.patterns.helpers));
+} (window.tasks.designPatterns, window.tasks.designPatterns.helpers));
 
-window.addEventListener('load', window.tasks.patterns.loader, false);
+window.addEventListener('load', window.tasks.designPatterns.loader, false);

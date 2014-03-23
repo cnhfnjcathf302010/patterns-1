@@ -1,4 +1,4 @@
-window.tasks.patterns.patterns.ClassesFactory = (function (classes) {
+window.tasks.designPatterns.patterns.ClassesFactory = (function (classes) {
 
 	var Classification = {
 	
@@ -13,4 +13,4 @@ window.tasks.patterns.patterns.ClassesFactory = (function (classes) {
 	
 	return Classification;
 	
-} (window.tasks.patterns.classes));
+} (window.tasks.designPatterns.classes));

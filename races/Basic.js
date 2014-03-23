@@ -1,4 +1,4 @@
-window.tasks.patterns.races.Basic = (function () {
+window.tasks.designPatterns.races.Basic = (function () {
 
 	function Basic () {
 		this.soldiers = [];
