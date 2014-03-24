@@ -1,8 +1,8 @@
-patterns
-========
+patterns<br />
+========<br />
 
- • Strategy
- • Factory method
- • Namespace
- • Module
+ • Strategy <br />
+ • Factory method <br />
+ • Namespace <br />
+ • Module<br />
  • Singletone
